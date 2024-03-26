@@ -1,8 +1,8 @@
 class Cwc < Formula
   desc "Chat with Code CLI tool"
   homepage "https://github.com/intility/cwc"
-  url "https://github.com/Intility/cwc/archive/refs/tags/v0.7.2.tar.gz"
-  sha256 "87b640048c36f209dbd9ec7e5a8390a0079b079be2e2665a0b34378724867bb2"
+  url "https://github.com/Intility/cwc/archive/refs/tags/v0.8.0.tar.gz"
+  sha256 "a43d766f4a00c3f339545a4dbd07890c182b5ddae238ca8cc303d34a169cd0f1"
   license "MIT"
 
   depends_on "go" => :build
