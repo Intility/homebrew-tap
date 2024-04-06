@@ -12,6 +12,6 @@ class Cwc < Formula
   end
 
   test do
-    assert_match (/Use "cwc [command] --help" for more information about a command/), shell_output("#{bin}/cwc -h", 0)
+    assert_match /Use "cwc [command] --help" for more information about a command/, shell_output("#{bin}/cwc -h", 0)
   end
 end
